@@ -21,7 +21,7 @@ export default function CaseStudyCard() {
           {/* Image area - exactly 50% of the card height */}
           <div className="relative w-full h-64 bg-gray-200">
             <img 
-              src="/api/placeholder/800/500" 
+              src="https://images.unsplash.com/photo-1563050860-87d45eaaeabb?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Kodezi product interface" 
               className="w-full h-full object-cover"
             />
@@ -42,7 +42,7 @@ export default function CaseStudyCard() {
               
               <div className="flex items-center mt-4 space-x-2">
                 <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-400">
-                  <img src="/api/placeholder/40/40" alt="Michael Amar" className="w-full h-full object-cover" />
+                  <img src="https://images.unsplash.com/photo-1583407723467-9b2d22504831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdGVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Michael Amar" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <p className="text-sm font-medium">/ Michael Amar</p>
@@ -60,7 +60,7 @@ export default function CaseStudyCard() {
           {/* Image area - takes up nearly the full card height */}
           <div className="relative w-full h-96 md:h-[28rem] bg-gray-200">
             <img 
-              src="/api/placeholder/800/900" 
+              src="https://images.unsplash.com/photo-1583407723467-9b2d22504831?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdGVyc3xlbnwwfHwwfHx8MA%3D%3D" 
               alt="Kodezi product showcase" 
               className="w-full h-full object-cover"
             />

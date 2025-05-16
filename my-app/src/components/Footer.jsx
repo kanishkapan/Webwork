@@ -47,7 +47,11 @@ export default function Footer() {
           <div className="flex items-center mt-4">
             <div className="h-12 w-12 rounded-full bg-gray-700 mr-4 overflow-hidden">
               {/* Person image placeholder */}
-              <div className="w-full h-full bg-gray-600"></div>
+              <div className='w-full h-full'>
+
+              
+              <img src="https://cdn.pixabay.com/photo/2016/11/18/16/17/man-1835599_1280.jpg"  alt="" />
+              </div>
             </div>
             <div>
               <p className="font-semibold">Nikita Ribakov</p>

@@ -11,16 +11,15 @@ export default function BrandIdentityBannerwhite() {
     return () => clearTimeout(timer);
   }, []);
 
-  const brandServices = [
-    'Visual Identity Design',
-    'Brand Experience',
-    'Brand Audits',
-    'Rebranding',
-    'Brand Guidelines',
-    'Brand Strategy',
-    'Brand Collaterals'
-  ];
-
+const brandServices = [
+  'User Research',
+  'Wireframe & Prototyping',
+  'UX Design',
+  'Mobile App Design',
+  'Web App Design',
+  'Interaction Design',
+  'Design System'
+];
   return (
     <div className="w-full bg-white-700 text-black m-0 p-0">
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20 flex flex-col md:flex-row items-center">
@@ -35,10 +34,7 @@ export default function BrandIdentityBannerwhite() {
           <p 
             className={`mb-8 transition-all duration-700 delay-100 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            Create a trusted, global brand with our expert designs 
-            and strategies. We help improve your brand’s visibility, 
-            credibility, and connection with customers both online 
-            and offline.
+            Turn your ideas into designs that help to business growth. Our UI UX services create easy-to-use, eye-catching digital experiences that keep users engaged, improve satisfaction.
           </p>
           
           <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

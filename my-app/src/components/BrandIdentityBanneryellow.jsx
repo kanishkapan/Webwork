@@ -13,14 +13,15 @@ export default function BrandIdentityBanneryellow
   }, []);
 
   const brandServices = [
-    'Visual Identity Design',
-    'Brand Experience',
-    'Brand Audits',
-    'Rebranding',
-    'Brand Guidelines',
-    'Brand Strategy',
-    'Brand Collaterals'
-  ];
+  'Poster Design',
+  'Event Posters',
+  'Promotional Posters',
+  'Product Launch Posters',
+  'Corporate Posters',
+  'Movie Posters',
+  'Campaign Posters'
+];
+
 
   return (
     <div className="w-full bg-yellow-300 text-black m-0 p-0">
@@ -30,16 +31,14 @@ export default function BrandIdentityBanneryellow
           <h1 
             className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 transition-all duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            UI/UX Design
+            Posters 
           </h1>
           
           <p 
             className={`mb-8 transition-all duration-700 delay-100 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            Create a trusted, global brand with our expert designs 
-            and strategies. We help improve your brand’s visibility, 
-            credibility, and connection with customers both online 
-            and offline.
+           Create Impactful Posters that Elevate Your Message
+Capture attention and leave a lasting impression with our professionally designed posters. Whether for events, promotions, or branding, we craft visually compelling posters that boost visibility, credibility, and audience engagement — both online and offline.
           </p>
           
           <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

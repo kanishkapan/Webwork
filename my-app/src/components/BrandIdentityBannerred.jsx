@@ -13,14 +13,14 @@ export default function BrandIdentityBannerred
   }, []);
 
   const brandServices = [
-    'Visual Identity Design',
-    'Brand Experience',
-    'Brand Audits',
-    'Rebranding',
-    'Brand Guidelines',
-    'Brand Strategy',
-    'Brand Collaterals'
-  ];
+  'Flyer Design',
+  'Promotional Flyers',
+  'Event Flyers',
+  'Product Launch Flyers',
+  'Corporate Flyers',
+  'Real Estate Flyers',
+  'Restaurant Menu Flyers'
+];
 
   return (
     <div className="w-full bg-orange-500 text-black m-0 p-0">
@@ -30,16 +30,13 @@ export default function BrandIdentityBannerred
           <h1 
             className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 transition-all duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            UI/UX Design
+           Flyers
           </h1>
           
           <p 
             className={`mb-8 transition-all duration-700 delay-100 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            Create a trusted, global brand with our expert designs 
-            and strategies. We help improve your brand’s visibility, 
-            credibility, and connection with customers both online 
-            and offline.
+            Stand out with expertly crafted flyers that deliver your message effectively. From promotions to events, we design high-impact flyers that enhance your brand’s visibility, credibility, and customer connection — both online and offline.
           </p>
           
           <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

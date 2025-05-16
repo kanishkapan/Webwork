@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <a href="#book-call" className="relative group flex items-center bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-all duration-300">
                   <div className="w-10 h-10 rounded-full overflow-hidden mr-3">
                     <img 
-                      src="/api/placeholder/60/60" 
+                      src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_1280.jpg" 
                       alt="Founder" 
                       className="object-cover w-full h-full"
                     />
@@ -68,7 +68,7 @@ export default function HeroSection() {
                       className="w-10 h-10 rounded-full border-2 border-white overflow-hidden"
                     >
                       <img 
-                        src={`/api/placeholder/60/${60+index}`} 
+                        src={`https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_1280.jpg`} 
                         alt={`Client ${index}`} 
                         className="w-full h-full object-cover"
                       />

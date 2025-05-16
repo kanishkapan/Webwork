@@ -25,7 +25,7 @@ export default function SportsDesignCaseStudy() {
             {/* Image */}
             <div className="w-full aspect-[4/3] bg-gray-200 mb-6">
               <img 
-                src="/api/placeholder/800/600" 
+                src="https://images.unsplash.com/photo-1603052564551-632cd6e24865?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="Sports federation UI design" 
                 className="w-full h-full object-cover"
               />
@@ -54,7 +54,7 @@ export default function SportsDesignCaseStudy() {
               
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-400">
-                  <img src="/api/placeholder/40/40" alt="Alexandros Ally" className="w-full h-full object-cover" />
+                  <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_1280.jpg" alt="Alexandros Ally" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <p className="text-sm font-medium">/ Alexandros Ally</p>

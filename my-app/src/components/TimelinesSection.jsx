@@ -78,7 +78,7 @@ export default function TimelinesSection() {
               
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-700">
-                  <img src="/api/placeholder/40/40" alt="Mari Kalba" className="w-full h-full object-cover" />
+                  <img src="https://cdn.pixabay.com/photo/2016/11/18/16/17/man-1835599_1280.jpg" alt="Mari Kalba" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <p className="text-sm font-medium">/ Mari Kalba</p>
