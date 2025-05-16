@@ -3,7 +3,7 @@ import FounderHeadline from "./components/FounderHeadline";
 
 import Navbar from "./components/Navbar";
 
-import HeroSection from "./components/Herosection";
+import HeroSection from "./components/HeroSection.jsx";
 import React from "react";
 import TestimonialSection from "./components/TestimonialCards";
 import ImpactfulCTA from "./components/ImpactfulCTA";
