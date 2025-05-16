@@ -1,9 +1,9 @@
 import CompanyLogos from "./components/CompanyLogos";
 import FounderHeadline from "./components/FounderHeadline";
-import FullWidthImage from "./components/FullWidthImage";
-import HeroSection from "./components/Herosection";
+
 import Navbar from "./components/Navbar";
 
+import HeroSection from "./components/Herosection";
 import React from "react";
 import TestimonialSection from "./components/TestimonialCards";
 import ImpactfulCTA from "./components/ImpactfulCTA";
